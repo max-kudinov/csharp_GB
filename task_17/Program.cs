@@ -1,4 +1,4 @@
-﻿int getQuarter(int x, int y) 
+﻿int getQuarter(int x, int y)
 {
     if (x > 0 && y > 0)
         return 1;

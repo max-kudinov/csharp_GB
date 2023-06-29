@@ -2,7 +2,8 @@
 int n = Convert.ToInt32(Console.ReadLine());
 int count = 1;
 
-if (n != 0){
+if (n != 0)
+{
     if (n < 0)
         n *= -1;
 
