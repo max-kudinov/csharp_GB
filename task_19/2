@@ -1,8 +1,0 @@
-﻿// Console.WriteLine("Enter a 5 digit number");
-// int number = Convert.ToInt32(Console.ReadLine());
-//
-// / - целочисленное деление
-// % - остаток от деления
-
-Console.WriteLine(14 / 10); // 2
-Console.WriteLine(14 % 10); // 4
