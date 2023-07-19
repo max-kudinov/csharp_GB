@@ -32,7 +32,7 @@ int[,,] fillRand3DArr(int rows, int columns, int depth)
 int getRand2DigitNum(int[] usedNums, int index, int start, int end)
 {
     Random rnd = new Random();
-    while (!isFull(usedNums))
+    if (!isFull(usedNums))
     {
         int randNum;
         do
