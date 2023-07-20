@@ -1,6 +1,6 @@
 ﻿void nSums(int a, int b, int n)
 {
-    if(n > 0)
+    if (n > 0)
     {
         Console.Write(a + " ");
         int temp = b;

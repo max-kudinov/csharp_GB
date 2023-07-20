@@ -2,7 +2,7 @@
 
 int recSum(int num)
 {
-    if(num != 0)
+    if (num != 0)
         return num % 10 + recSum(num / 10);
     return 0;
 }
